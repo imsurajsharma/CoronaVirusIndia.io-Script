@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Why Us?</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static "vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+<style>
+.faqs{
+    
+    padding: 5%;
+}
+</style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Corona Virus India</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/why">Why Us?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Why Us?</h1>
+        <p class="lead">Here are some frequently asked question (F.A.Q) so that you can trust us.</p>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 faqs ">
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>1. From Where you get Data?</h4></div>
+                        <p class="text-justify">All the data source are from official Indian government website.The website is <a href="https://www.mohfw.gov.in/">mohfw.gov.in</a></p>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>2. Is there is any official API?</h4></div>
+                        <p class="text-justify">No there is no any official API from government side. We are using a third party API for data. This third party API scrape data from government official website.</p>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>3. How is your website is different from other?</h4></div>
+                        <p class="text-justify">Well it the way of presenting data to the normal people so that they can easily crunch the numbers. It is all about simplicity. We are presenting data in useful way.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 faqs">
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>4. Is your data is up to date?</h4></div>
+                        <p class="text-justify">Yes, our data is up to date. We update our data on daily basis. This data is live and you can get live update</p>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>5. Some website data is different from yours?</h4></div>
+                        <p class="text-justify">There are many websites and it may be possible that they may have different data from us. But <b>our data is official</b>  and you can trust us. </p>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="text-justify"><h4>6. What are official and unofficial data?</h4></div>
+                        <p class="text-justify">The official data is from Indian government official website and the unofficial data is collected by <a href="https://covindia.com/about"  rel="nofollow">CovIndia Team</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static "vendor/jquery/jquery.slim.min.js" %}"></script>
+  <script src="{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+
+</body>
+
+</html>
